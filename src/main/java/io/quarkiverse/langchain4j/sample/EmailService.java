@@ -16,7 +16,7 @@ public class EmailService {
     @Inject
     Mailer mailer;
 
-    @ConfigProperty(name= "email.to")
+    @ConfigProperty(name = "email.to")
     String email;
 
     @Tool("send the given content by email")
